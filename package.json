@@ -1,0 +1,20 @@
+{
+  "name": "client-socket.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Sofelixx/client-socket.io.git",
+  "author": "sofelix <s18paris@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html -d ./build"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/socket.io-client": "^1.4.32",
+    "socket.io-client": "^2.3.0"
+  }
+}
